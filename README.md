@@ -1,4 +1,19 @@
-# Exam
+# Principal Files and Folders Paths for Avaliation:
+-src
+  -app
+    services
+    create
+    services
+    update
+    delete
+    crud
+    
+# Libraries Used
+-Bootstrap
+-AngularMaterial
+-Angular Route
+
+# Angular 6 Front-end Text
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
