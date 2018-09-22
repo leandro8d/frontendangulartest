@@ -10,7 +10,6 @@ import { FormsModule }   from '@angular/forms';
 import { AppComponent } from './app.component';
 import { CRUDComponent } from './crud/crud.component';
 import { AppRoutingModule } from './app-routing.module';
-import { ListpostComponent } from './listpost/listpost.component';
 import { CreateComponent } from './create/create.component';
 import { UpdateComponent } from './update/update.component';
 import { DeleteComponent } from './delete/delete.component';
@@ -20,7 +19,6 @@ import { DeleteComponent } from './delete/delete.component';
   declarations: [
     AppComponent,
     CRUDComponent,
-    ListpostComponent,
     CreateComponent,
     UpdateComponent,
     DeleteComponent
