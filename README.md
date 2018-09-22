@@ -1,4 +1,5 @@
 # Principal Files and Folders Paths for Avaliation:
+<pre>
 -src
   -app
     services
@@ -7,11 +8,11 @@
     update
     delete
     crud
-    
+    </pre>
 # Libraries Used
--Bootstrap
--AngularMaterial
--Angular Route
+-Bootstrap <br />
+-AngularMaterial <br />
+-Angular Route <br />
 
 # Angular 6 Front-end Text
 
@@ -40,3 +41,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+ &nbsp;
