@@ -1,0 +1,30 @@
+<table class="table table bordered" *ngIf="!inAction">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>User Id</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Body</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let post of posts">
+      <td>
+        <button class="btn btn-default btn-xs" routerLink="/update/{{post.id}}">
+          <span class="fa fa-pencil"></span>
+        </button>
+        <button class="btn btn-default btn-xs" routerLink="/delete/{{post.id}}">
+          <span class="fa fa-trash"></span>
+        </button>
+      </td>
+      <td [attr.contenteditable]="post.editable">{{post.userId}}</td>
+      <td [attr.contenteditable]="post.editable">{{post.id}}</td>
+      <td [attr.contenteditable]="post.editable">{{post.title}}</td>
+      <td [attr.contenteditable]="post.editable" title="{{post.body}}">{{post.body}}</td>
+    </tr>
+  </tbody>
+</table>
+
+
+

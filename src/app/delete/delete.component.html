@@ -1,0 +1,17 @@
+<form >
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input type="text" class="form-control" id="title" [value]="selectedPost.title"disabled />
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="title">Body</label>
+    <textarea type="text" class="form-control" id="title" [value]="selectedPost.body" disabled></textarea>
+  </div>
+  <div class="form-group">
+    <label for="title">User Id</label>
+    <input type="number" class="form-control col-lg-1" id="userid" [value]="selectedPost.userId" disabled/>
+  </div>
+  <button type="button" (click)="deletePost()" class="btn btn-primary">Delete</button>
+  <button type="button" routerLink="/"  class="btn btn-primary">Cancel</button>
+</form>

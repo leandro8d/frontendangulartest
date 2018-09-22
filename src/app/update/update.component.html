@@ -1,0 +1,18 @@
+<form  #updateform="ngForm">
+    <div class="form-group">
+      <label for="title">Title</label>
+      <input type="text" class="form-control" name="title" [(ngModel)]="selectedPost.title" required />
+      
+    </div>
+    <div class="form-group">
+      <label for="gody">Body</label>
+      <textarea type="text" class="form-control" name="body" [(ngModel)]="selectedPost.body" required></textarea>
+    </div>
+    <div class="form-group">
+      <label for="userid">User Id</label>
+      <input type="number" class="form-control col-lg-1" name="userid" [(ngModel)]="selectedPost.userId" required/>
+    </div>
+    <button type="button" [disabled]="!updateform.valid" (click)="updatePost()" class="btn btn-primary">Update</button>
+    <button type="button" routerLink="/"  class="btn btn-primary">Cancel</button>
+    <small  [hidden]="updateform.valid" class="form-text text-muted" style="color:red">Form Invalid. Inputs can't be null.</small>
+  </form>
