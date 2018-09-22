@@ -1,4 +1,4 @@
-# Principal Files and Folders Paths for Avaliation:
+# Principal Files and Folder Paths for Avaliation:
 <pre>
 -src
   -app
